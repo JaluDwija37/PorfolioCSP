@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* background */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #16161a;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fffffe;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #2cb67d;
+    text-decoration: none;
+}
+
+.title:hover {
+    color: #7f5af0;
+}
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #7f5af0;
+}
+
+.nav__links>.active>a {
+    color: #7f5af0;
+}
+
+
+button {
+    padding: 9px 25px;
+    background-color: #7f5af0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #fffffe;
+    color: #7f5af0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+/*===== HOME =====*/
+.home {
+    margin-top: 5%;
+    color: #fffffe;
+    margin-left: 10%;
+    font-size: 200%;
+}
+
+.home_title {
+    width: 500px;
+    font-size: 150%;
+    color: #7f5af0;
+}
+
+.home__social-icon {
+    width: 30px;
+    font-size: 100%;
+    color: #fffffe;
+}
+
+.home__social-icon:hover {
+    color: #7f5af0;
+    transition: all 0.3s ease 0s;
+}
+
+.profile_picture {
+    margin-right: 30%;
+    float: right;
+    border-radius: 50%;
+    width: 40%;
+}
+
+/* ====== Social Media ====== */
+.table-sosmed {
+    width: 100%;
+}
+
+.icon_sosmed {
+    font-size: 200px;
+}
+
+.icon_sosmed:hover {
+    color: #7f5af0;
+    transition: all 0.3s ease 0s;
+}
+
+.icon_sosmed_text:hover {
+    color: #7f5af0;
+    transition: all 0.3s ease 0s;
+}
