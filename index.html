@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
+<body onload="startTime()">
     <header>
         <h1 class="title">My Portfolio</h1>
+
         <nav>
             <ul class="nav__links">
                 <li class="active"><a href="index.html">Home</a></li>
@@ -21,7 +23,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <a class="cta" href="email.html"><button>Email Me</button></a>
+        <h3 id="txt"></h3>
     </header>
 
     <section>
@@ -37,12 +39,16 @@
                     <a href="" class="home__social-icon"><i class='bx bxl-behance'></i></a>
                     <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
                 </div>
+                <br>
+                <a class="cta" href="email.html"><button>Email Me</button></a>
             </div>
+            <div>
+                <img src="image/pp.jpg" alt="" class="profile_picture">
 
-
-            <div><img src="image/pp.jpg" alt="" class="profile_picture"></div>
+            </div>
         </div>
     </section>
+
 </body>
 
 </html>
