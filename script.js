@@ -14,6 +14,7 @@ function checkTime(i) {
     return i;
 }
 
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
